@@ -1,0 +1,10 @@
+@media 
+screen and (max-width: 992px) {  
+    body {   background-color: blue; }
+}
+#welcome-section {
+    height: device-height;
+}
+#navbar {
+    position: fixed;
+}
