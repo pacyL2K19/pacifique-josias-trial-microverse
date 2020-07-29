@@ -1,10 +1,13 @@
-@media 
-screen and (max-width: 992px) {  
-    body {   background-color: blue; }
-}
-#welcome-section {
-    height: device-height;
+@media screen and (min-width: 900px) {
+  body {
+    padding: 1rem 3rem;
+  }
 }
 #navbar {
-    position: fixed;
+  position: fixed;
+  top: 0px;
+}
+
+#welcome-section {
+    height: 949px;
 }
